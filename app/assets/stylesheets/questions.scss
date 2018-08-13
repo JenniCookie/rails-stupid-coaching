@@ -1,0 +1,54 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  font-family: Raleway;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 35px;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.search_bar {
+  width: 350px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+}
+
+.submit_button {
+  font-size: 15px;
+  background-color: #134e84;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px 0px rgba(201,201,201,1);
+  padding: 6px;
+  width: 61px;
+  height: 34px;
+}
+
+.verticalLine {
+  border-left: thick solid #dddddd;
+  padding-left: 10px;
+
+}
+
+.verticalLine.coach {
+  background-color: #fffee4;
+  width: 500px;
+}
+
+#go_back {
+  margin-top: 60px;
+}
+
+.sender {
+  font-style: italic;
+}
